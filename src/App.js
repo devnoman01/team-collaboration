@@ -5,8 +5,9 @@ function App() {
   return (
     <div className="App">
       <div className="container mx-auto p-5">
-        <div className="grid grid-cols-3 gap-4">
-          <div class="card w-96 bg-green-50 border shadow-xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {/* user: noman */}
+          <div class="card w-full bg-green-50 border shadow-xl">
             <figure class="px-10 pt-10">
               <img
                 src="https://avatars.githubusercontent.com/u/67538033?v=4"
@@ -22,6 +23,8 @@ function App() {
               </div> */}
             </div>
           </div>
+
+          {/*  */}
         </div>
       </div>
     </div>
