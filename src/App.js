@@ -49,7 +49,7 @@ function App() {
           <div class="card w-full bg-green-50 border shadow-xl">
             <figure class="px-10 pt-10">
               <img
-                src="https://avatars.githubusercontent.com/u/67538033?v=4"
+                src="https://avatars.githubusercontent.com/u/96829526?s=96&v=4"
                 alt="Shoes"
                 class="rounded-xl"
               />
