@@ -41,11 +41,7 @@ function App() {
               </div> */}
             </div>
           </div>
-        </div>
-      </div>
-      <div className="container mx-auto p-5">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {/* user: noman */}
+          {/* user: Zannatul Binta */}
           <div class="card w-full bg-green-50 border shadow-xl">
             <figure class="px-10 pt-10">
               <img
