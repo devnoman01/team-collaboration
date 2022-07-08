@@ -35,10 +35,10 @@ function App() {
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">Md. Shahadat Hossain</h2>
-              {/* <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>shahadat2772@gmail.com</p>
               <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
-              </div> */}
+                <button class="btn btn-primary">contact</button>
+              </div>
             </div>
           </div>
           {/* user: Zannatul Binta */}
