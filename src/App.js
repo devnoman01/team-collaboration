@@ -96,6 +96,24 @@ function App() {
           </div>
 
           {/*  */}
+          <div class="card w-full bg-green-50 border shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="https://avatars.githubusercontent.com/u/78158511?v=4"
+                alt="Shoes"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Mahfuz swaron</h2>
+              <p>mahfuzswaron@gmail.com</p>
+              <div class="card-actions">
+                <button class="btn btn-primary">contact</button>
+              </div>
+            </div>
+          </div>
+
+          {/*  */}
         </div>
       </div>
     </div>
