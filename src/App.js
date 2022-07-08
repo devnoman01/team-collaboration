@@ -28,14 +28,14 @@ function App() {
           <div class="card w-full bg-green-50 border shadow-xl">
             <figure class="px-10 pt-10">
               <img
-                src="https://avatars.githubusercontent.com/u/67538033?v=4"
+                src="https://avatars.githubusercontent.com/u/78158511?v=4"
                 alt="Shoes"
                 class="rounded-xl"
               />
             </figure>
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Md.Abdullah Al Noman</h2>
-              <p>devnoman01@gmail.com</p>
+              <h2 class="card-title">Minhajul Alam</h2>
+              <p>mdakib2727@gmail.com</p>
               <div class="card-actions">
                 <button class="btn btn-primary">Contact</button>
               </div>
