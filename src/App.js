@@ -70,10 +70,10 @@ function App() {
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">MInhajul Alam</h2>
-              {/* <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>mdakib2727@gmail.com</p>
               <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
-              </div> */}
+                <button class="btn btn-primary">Contact</button>
+              </div>
             </div>
           </div>
 
