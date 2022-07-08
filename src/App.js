@@ -17,10 +17,10 @@ function App() {
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">Md.Abdullah Al Noman</h2>
-              {/* <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>devnoman01@gmail.com</p>
               <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
-              </div> */}
+                <button class="btn btn-primary">Contact</button>
+              </div>
             </div>
           </div>
 
