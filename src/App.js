@@ -34,8 +34,8 @@ function App() {
               />
             </figure>
             <div class="card-body items-center text-center">
-              <h2 class="card-title">Md.Abdullah Al Noman</h2>
-              <p>devnoman01@gmail.com</p>
+            <h2 class="card-title">Zannatul Binta Bahar</h2>
+              <p>zannatulbintabahar@yahoo.com</p>
               <div class="card-actions">
                 <button class="btn btn-primary">Contact</button>
               </div>
