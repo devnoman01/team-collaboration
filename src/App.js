@@ -34,6 +34,7 @@ function App() {
               />
             </figure>
             <div class="card-body items-center text-center">
+              <h2 class="card-title">Md.Abdullah</h2>
               <h2 class="card-title">Md.Abdullah Al Noman</h2>
               <p>devnoman01@gmail.com</p>
               <div class="card-actions">
