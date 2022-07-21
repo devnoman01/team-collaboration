@@ -1,12 +1,13 @@
 import "./App.css";
 import CoreFeatures from "./Pages/Home/Sections/CoreFeatures/CoreFeatures";
-import WhyChooseUs from "./WhyChooseUs";
+import WhyUs from "./Pages/Home/Sections/WhyUs/WhyUs";
+
 
 function App() {
   return (
     <div className="App">
       <CoreFeatures></CoreFeatures>
-      <WhyChooseUs />
+      <WhyUs />
     </div>
   );
 }
