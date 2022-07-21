@@ -1,11 +1,12 @@
-import WhyChooseUs from "./WhyChooseUs";
+import "./App.css";
+import CoreFeatures from "./Pages/Home/Sections/CoreFeatures/CoreFeatures";
 
 function App() {
   return (
     <div className="App">
-      <WhyChooseUs />
-
-    </div>)
-};
+      <CoreFeatures></CoreFeatures>
+    </div>
+  );
+}
 
 export default App;
