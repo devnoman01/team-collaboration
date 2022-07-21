@@ -1,13 +1,15 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
-import Footer from "./Footer/Footer";
-import Navbar from "./Navbar/Navbar";
+// import Footer from "./Footer/Footer";
+// import Navbar from "./Navbar/Navbar";
+import Account from "./Account/Account";
 
 function App() {
   return (
-    <div className="">
+    <div className="my-32">
       {/* <Footer /> */}
-      <Navbar />
+      {/* <Navbar /> DONE */}
+      <Account />
     </div>
   );
 }
