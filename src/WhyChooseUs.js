@@ -1,5 +1,7 @@
 import React from 'react';
-import KeyPoint from './KeyPoint';
+import KeyPoint from './Pages/Home/Sections/WhyUs/KeyPoint';
+
+// data array
 const keyPoints = [
     {
         "id": 1,
