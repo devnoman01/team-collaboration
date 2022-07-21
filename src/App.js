@@ -5,13 +5,15 @@ import Navbar from "./Navbar/Navbar";
 // import Account from "./Account/Account";
 import HeroSection from "./HeroSection/HeroSection";
 import UserFlow from "./UserFlow/UserFlow";
+import Footer from "./Footer-part-2/Footer";
 
 function App() {
   return (
     <div className="">
       <Navbar />
       <UserFlow />
-      <HeroSection />
+      {/* <HeroSection /> */}
+      <Footer />
     </div>
   );
 }
