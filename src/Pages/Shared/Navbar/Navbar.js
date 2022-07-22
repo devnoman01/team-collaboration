@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
+import logo from "../../../logos/logo-horizontal.png";
 
 const Navbar = () => {
   // NAV OPACITY CHANGER
@@ -29,7 +30,10 @@ const Navbar = () => {
           <nav className="flex items-center justify-between">
             {/* PROJECT LOGO */}
             <div>
-              <a href="#">Sohoj Pay</a>
+              <a href="#">
+                <img src={logo} className="w-32" alt="" />
+                {/* {logo} */}
+              </a>
             </div>
             <div className="ml-20">
               {" "}
@@ -46,10 +50,10 @@ const Navbar = () => {
                 ))}
                 {/* RESPONSIVE LOGIN OR SIGN UP  BUTTON */}
                 <div className=" flex items-center justify-center lg:hidden">
-                  <button className="btn bg-sky-600 hover:bg-sky-700 border-0 btn-sm mr-3">
+                  <button className="btn bg-#a47ef1 hover:bg-sky-700 border-0 btn-sm mr-3">
                     Login
                   </button>
-                  <button className=" btn bg-red-600 hover:bg-red-700 border-0 btn-sm">
+                  <button className=" btn bg-[#3F4AD9] hover:bg-[#252fbc] border-0 btn-sm">
                     Sign Up
                   </button>
                 </div>
