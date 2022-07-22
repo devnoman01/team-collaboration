@@ -37,9 +37,8 @@ const Navbar = () => {
               {" "}
               {/* NAV ITEM */}
               <ul
-                className={`lg:flex w-100 h-72 lg:h-auto lg:w-full block lg:items-center navbar absolute duration-500 ease-in lg:static top-16 ${
-                  open ? "left-[-10px] top-12" : "left-[-380px]"
-                }`}
+                className={`lg:flex w-100 h-72 lg:h-auto lg:w-full block lg:items-center navbar absolute duration-500 ease-in lg:static top-16 ${open ? "left-[-10px] top-12" : "left-[-380px]"
+                  }`}
               >
                 {link.map((item) => (
                   <li className="block text-center " key={item.id}>
