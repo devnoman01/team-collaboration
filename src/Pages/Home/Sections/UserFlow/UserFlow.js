@@ -15,7 +15,7 @@ import {
 
 const UserFlow = () => {
   return (
-    <div className="container mx-auto mt-32">
+    <div className="container mx-auto mt-32 py-20">
       {/* GRID USERFLOW CARD */}
       <div className="grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3  gap-0 md:px-4 sm:px-4">
         <div className="lg:translate-x-10">
