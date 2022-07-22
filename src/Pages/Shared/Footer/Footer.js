@@ -106,7 +106,10 @@ const Footer = () => {
               <p>consectetur adipiscing elit. </p>
               <div className="footer-form flex items-center">
                 <input type="email" placeholder="Your Email" />
-                <button className="btn" type="submit">
+                <button
+                  className="btn flex items-center justify-center"
+                  type="submit"
+                >
                   <i className="fa-solid fa-angle-right ms-1 mt-2"></i>
                 </button>
               </div>

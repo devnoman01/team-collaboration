@@ -19,7 +19,7 @@
 .footer-info span {
   font-size: 25px;
   margin-right: 20px;
-  color: rgba(255, 106, 0, 0.854);
+  color: #fff;
 }
 .footer-form input {
   color: gray;
@@ -30,7 +30,7 @@
   border-radius: 10px;
 }
 .footer-form button {
-  background-color: rgb(255, 106, 0);
+  background-color: #9260f6;
   color: #fff;
   padding: 0 20px;
   padding-top: 17px;

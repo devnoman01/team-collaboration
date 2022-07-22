@@ -11,7 +11,7 @@ const keyPoints = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-12 w-12 stroke-blue-700"
+        className="h-12 w-12 stroke-primary"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth={2}
@@ -32,7 +32,7 @@ const keyPoints = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-12 w-12 stroke-blue-700"
+        className="h-12 w-12 stroke-primary"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth={2}
@@ -53,7 +53,7 @@ const keyPoints = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-12 w-12 stroke-blue-700"
+        className="h-12 w-12 stroke-primary"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth={2}
@@ -74,7 +74,7 @@ const keyPoints = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-12 w-12 stroke-blue-700"
+        className="h-12 w-12 stroke-primary"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth={2}
@@ -91,11 +91,11 @@ const keyPoints = [
 
 const WhyUs = () => {
   return (
-    <section className="py-10 lg:py-20 px-5 lg:px-20 text-center">
+    <section className="p-10  lg:p-20 text-center px-5">
       {/* section header */}
       <div>
-        <h3 className="text-3xl font-semibold mb-5">
-          Why <span className="border-b-4 border-b-blue-600">Choose</span> us?
+        <h3 className="text-3xl font-bold mb-10 text-primary">
+          Why <span className="border-b-4 border-black pb-1">Choose</span> us?
         </h3>
         <p className="">
           There are a vast of applications in the market that can provide you
