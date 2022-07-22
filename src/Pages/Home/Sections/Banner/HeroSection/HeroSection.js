@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div class="hero-overlay bg-secondary bg-opacity-60"></div>
         <div class="hero-content text-center text-white ">
           <div class="max-w-lg">
-            <h1 class="mb-5 text-5xl font-bold">Empty Life Without Shohoj Pay</h1>
+            <h1 class="mb-5 text-4xl lg:text-5xl leading-10 font-bold">Empty Life Without <span className="block">Shohoj Pay</span></h1>
             <p class="">
               We make your life easy by probiding you one of the most important services that is Finance. Use Shohoj Pay and kick out your problems.
             </p>
@@ -16,10 +16,10 @@ const HeroSection = () => {
         </div>
       </div>
       {/* img part */}
-      <figure className="w-7/12 mx-auto absolute bottom-10 left-64">
-        <img src="/images/banner-img.svg" alt="banner" />
+      <figure className="w-10/12 lg:w-7/12 absolute bottom-20 lg:bottom-10 left-5 lg:left-64 ">
+        <img className="" src="/images/banner-img.svg" alt="banner" />
       </figure>
-      <div className="bg-primary h-96 w-full"></div>
+      <div className="bg-primary h-32 lg:h-96 w-full"></div>
     </section>
   );
 };
