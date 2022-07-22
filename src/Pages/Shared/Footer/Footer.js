@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import footerLogo from "../../../logos/logo-vertical.png";
 
 const Footer = () => {
   const time = new Date();
@@ -7,14 +8,10 @@ const Footer = () => {
   return (
     <footer className="footer-section pt-10 mt-15">
       <div className="container mx-auto pt-10  pb-10">
-        <div className="text-center">
-          <img
-            className="w-36 m-auto"
-            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            alt=""
-          />
+        <div className="text-center p-5 lg:p-0 md:p-0">
+          <img className="w-36 m-auto" src={footerLogo} alt="" />
           <div className="text-light">
-            <p className="mb-1 mt-4 text-slate-300">
+            <p className="mb-1 mt-4 text-slate-300 ">
               Thanks You So Much For Visiting Cogbo Immigration VisA Website
             </p>
             <p className="text-slate-300">
@@ -118,7 +115,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center  mt-1 mb-0 pb-4 footer-copyright ">
-        Copyright &copy; {year} Sohoj Pay
+        Copyright &copy; {year} SHOHOJ PAY
       </p>
     </footer>
   );

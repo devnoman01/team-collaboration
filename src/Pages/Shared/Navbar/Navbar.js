@@ -50,7 +50,7 @@ const Navbar = () => {
                 ))}
                 {/* RESPONSIVE LOGIN OR SIGN UP  BUTTON */}
                 <div className=" flex items-center justify-center lg:hidden">
-                  <button className="btn bg-#a47ef1 hover:bg-sky-700 border-0 btn-sm mr-3">
+                  <button className="btn bg-transparent border-2 text-secondary hover:border-secondary hover:bg-secondary border-secondary hover:text-white btn-sm mr-3">
                     Login
                   </button>
                   <button className=" btn bg-[#3F4AD9] hover:bg-primary border-0 btn-sm">

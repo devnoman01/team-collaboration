@@ -6,7 +6,7 @@ const UserFlow = () => {
     <div className="container mx-auto py-20 lg:mt-10">
       {/* GRID USERFLOW CARD */}
       <div className="grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3  gap-0 md:px-4 sm:px-4">
-        <div className="lg:translate-x-10">
+        <div className="lg:translate-x-10 md:px-0 lg:px-0 px-5">
           <div className="flex items-center mb-8">
             <a href="" className="ac-create-icon m-auto">
               <i class="fa-solid fa-user-plus text-3xl"></i>
@@ -44,7 +44,7 @@ const UserFlow = () => {
           </div>
         </div>
         {/* USERFLOW CARD */}
-        <div className="lg:-translate-y-16">
+        <div className="lg:-translate-y-16 md:px-0 lg:px-0 px-5">
           <div className="flex items-center mb-8">
             <a href="" className="ac-create-icon m-auto">
               <i class="fa-solid fa-credit-card text-3xl"></i>
@@ -73,7 +73,7 @@ const UserFlow = () => {
           </div>
         </div>
         {/* USERFLOW CARD */}
-        <div className="lg:-translate-x-10">
+        <div className="lg:-translate-x-10 md:px-0 lg:px-0 px-5">
           <div className="flex items-center mb-8">
             <a href="" className="ac-create-icon m-auto">
               <i class="fa-solid fa-earth-americas text-3xl"></i>
