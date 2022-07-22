@@ -1,10 +1,14 @@
 import "./App.css";
-import CoreFeatures from "./Pages/Home/Sections/CoreFeatures/CoreFeatures";
+import UserFlow from "./Pages/Home/Sections/UserFlow/UserFlow";
+import Footer from "./Pages/Shared/Footer/Footer";
+import Navbar from "./Pages/Shared/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <CoreFeatures></CoreFeatures>
+      <Navbar></Navbar>
+      <UserFlow></UserFlow>
+      <Footer></Footer>
     </div>
   );
 }
