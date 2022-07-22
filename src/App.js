@@ -4,6 +4,7 @@ import Footer from "./Pages/Shared/Footer/Footer";
 import Navbar from "./Pages/Shared/Navbar/Navbar";
 import CoreFeature from "./Pages/Home/Sections/CoreFeatures/CoreFeatures";
 import WhyUs from "./Pages/Home/Sections/WhyUs/WhyUs";
+import Banner from "./Pages/Home/Sections/Banner/Banner/Banner";
 import HeroSection from "./Pages/Home/Sections/Banner/HeroSection/HeroSection";
 
 function App() {
