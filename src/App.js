@@ -1,19 +1,23 @@
-// import logo from "./logo.svg";
 import "./App.css";
-// import Footer from "./Footer/Footer";
-import Navbar from "./Navbar/Navbar";
-// import Account from "./Account/Account";
-import HeroSection from "./HeroSection/HeroSection";
-import UserFlow from "./UserFlow/UserFlow";
-import Footer from "./Footer-part-2/Footer";
+import UserFlow from "./Pages/Home/Sections/UserFlow/UserFlow";
+import Footer from "./Pages/Shared/Footer/Footer";
+import Navbar from "./Pages/Shared/Navbar/Navbar";
+import CoreFeature from "./Pages/Home/Sections/CoreFeatures/CoreFeatures";
+import CoreFeatures from "./Pages/Home/Sections/CoreFeatures/CoreFeatures";
+import WhyUs from "./Pages/Home/Sections/WhyUs/WhyUs";
+import Banner from "./Pages/Home/Sections/Banner/Banner/Banner";
+import HeroSection from "./Pages/Home/Sections/Banner/HeroSection/HeroSection";
 
 function App() {
   return (
-    <div className="">
-      <Navbar />
-      <UserFlow />
-      {/* <HeroSection /> */}
-      <Footer />
+    <div className="App">
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <HeroSection></HeroSection>
+      <UserFlow></UserFlow>
+      <CoreFeature></CoreFeature>
+      <WhyUs />
+      <Footer></Footer>
     </div>
   );
 }
