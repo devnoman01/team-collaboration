@@ -12,7 +12,6 @@ const Navbar = () => {
       navbar.classList.remove("nav-active");
     }
   };
-
   // ALL ROUTE
   const link = [
     { id: 1, name: "Home", link: "/home" },
@@ -32,7 +31,6 @@ const Navbar = () => {
             <div>
               <a href="#">Sohoj Pay</a>
             </div>
-
             <div className="ml-20">
               {" "}
               {/* NAV ITEM */}
