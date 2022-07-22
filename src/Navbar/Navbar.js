@@ -15,7 +15,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="container mx-auto lg:m-7 ">
-      <div className="bg-base-200 p-1 lg:px-8 lg:rounded-2xl md:px-4">
+      <div className="bg-base-200 z-10 p-1 lg:px-8 lg:rounded-2xl md:px-4">
         <nav className="flex items-center justify-between">
           {/* PROJECT LOGO */}
           <div>
@@ -26,7 +26,7 @@ const Navbar = () => {
             {" "}
             {/* NAV ITEM */}
             <ul
-              className={`lg:flex w-80 h-72 lg:h-auto lg:w-full block lg:items-center navbar absolute duration-500 ease-in lg:static bg-indigo-200 lg:bg-base-200 top-12  ${
+              className={`z-10 lg:flex w-80 h-72 lg:h-auto lg:w-full block lg:items-center navbar absolute duration-500 ease-in lg:static bg-indigo-200 lg:bg-base-200 top-12  ${
                 open ? "left-[-10px] top-12" : "left-[-380px]"
               }`}
             >
@@ -45,10 +45,10 @@ const Navbar = () => {
                 </button>
               </div>
               {/* LARGE DEVICE LOGIN OR SIGN UP BUTTON */}
-              <button className="btn bg-transparent border-2 text-black hover:bg-black hover:text-white btn-sm lg:mx-4 hidden lg:block">
+              <button className="btn bg-transparent border-2 z-50 text-black hover:bg-black hover:text-white btn-sm lg:mx-4 hidden lg:block">
                 Login
               </button>
-              <button className="btn bg-red-600 hover:bg-red-700 border-0 btn-sm hidden lg:block">
+              <button className="btn bg-red-600 z-50 hover:bg-red-700 border-0 btn-sm hidden lg:block">
                 Sign Up
               </button>
             </ul>
