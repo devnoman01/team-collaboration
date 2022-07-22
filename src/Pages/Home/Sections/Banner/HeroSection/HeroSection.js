@@ -2,11 +2,11 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="relative">
+    <section className="relative pt-0">
       {/* text part */}
-      <div class="hero min-h-screen">
+      <div class="hero  min-h-screen">
         <div class="hero-overlay bg-secondary bg-opacity-60"></div>
-        <div class="hero-content text-center text-white mt-0 pt-0">
+        <div class="hero-content text-center text-white ">
           <div class="max-w-lg">
             <h1 class="mb-5 text-5xl font-bold">Empty Life Without Shohoj Pay</h1>
             <p class="">
@@ -16,10 +16,10 @@ const HeroSection = () => {
         </div>
       </div>
       {/* img part */}
-      <figure className="w-7/12 mx-auto absolute bottom-10 left-52">
+      <figure className="w-7/12 mx-auto absolute bottom-10 left-64">
         <img src="/images/banner-img.svg" alt="banner" />
       </figure>
-      <div className="bg-primary h-72 w-full"></div>
+      <div className="bg-primary h-96 w-full"></div>
     </section>
   );
 };
