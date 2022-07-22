@@ -6,13 +6,12 @@ const Navbar = () => {
   // NAV OPACITY CHANGER
   const navbar = document.querySelector(".navbarContainer");
   window.onscroll = () => {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 20) {
       navbar.classList.add("nav-active");
     } else {
       navbar.classList.remove("nav-active");
     }
   };
-
   // ALL ROUTE
   const link = [
     { id: 1, name: "Home", link: "/home" },
@@ -25,14 +24,13 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="fixed top-0 w-[100%] z-50">
-      <div className="navbarContainer w-[95%] mx-auto rounded-2xl mt-4">
+      <div className="navbarContainer px-4 py-2 lg:rounded-2xl lg:p-0 lg:m-4">
         <div className="p-1 lg:px-8 md:px-4">
           <nav className="flex items-center justify-between">
             {/* PROJECT LOGO */}
             <div>
               <a href="#">Sohoj Pay</a>
             </div>
-
             <div className="ml-20">
               {" "}
               {/* NAV ITEM */}
