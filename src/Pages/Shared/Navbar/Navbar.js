@@ -6,7 +6,7 @@ const Navbar = () => {
   // NAV OPACITY CHANGER
   const navbar = document.querySelector(".navbarContainer");
   window.onscroll = () => {
-    if (window.scrollY > 20) {
+    if (window.scrollY > 0) {
       navbar.classList.add("nav-active");
     } else {
       navbar.classList.remove("nav-active");

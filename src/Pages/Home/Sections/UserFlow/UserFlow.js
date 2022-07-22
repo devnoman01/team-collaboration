@@ -1,17 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCoffee,
-  faEarthAmerica,
-  faGlobe,
-  faMoneyBill,
-  faMoneyBills,
-  faMoneyBillTransfer,
-  faMoneyCheck,
-  faMoneyCheckDollar,
-  faPiggyBank,
-  faUserPlus,
-} from "@fortawesome/free-solid-svg-icons";
+import "./UserFlow.css";
 
 const UserFlow = () => {
   return (
@@ -21,8 +9,7 @@ const UserFlow = () => {
         <div className="lg:translate-x-10">
           <div className="flex items-center mb-8">
             <a href="" className="ac-create-icon m-auto">
-              <i class="fa-solid fa-user-plus"></i>
-              {/* <FontAwesomeIcon className="text-3xl" icon={faUserPlus} /> */}
+              <i class="fa-solid fa-user-plus text-3xl"></i>
             </a>
           </div>
           <h1 className="text-center text-xl">Creat an account</h1>
