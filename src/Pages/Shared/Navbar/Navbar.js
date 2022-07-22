@@ -6,7 +6,7 @@ const Navbar = () => {
   // NAV OPACITY CHANGER
   const navbar = document.querySelector(".navbarContainer");
   window.onscroll = () => {
-    if (window.scrollY > 0) {
+    if (window.scrollY > 20) {
       navbar.classList.add("nav-active");
     } else {
       navbar.classList.remove("nav-active");
@@ -24,7 +24,7 @@ const Navbar = () => {
   // RESPONSIVE TOGGLER BTN STATE
   const [open, setOpen] = useState(false);
   return (
-    <div className="fixed top-0 w-[100%]">
+    <div className="fixed top-0 w-[100%] z-50">
       <div className="navbarContainer w-[95%] mx-auto rounded-2xl mt-4">
         <div className="p-1 lg:px-8 md:px-4">
           <nav className="flex items-center justify-between">
@@ -37,8 +37,8 @@ const Navbar = () => {
               {" "}
               {/* NAV ITEM */}
               <ul
-                className={`lg:flex w-100 h-72 lg:h-auto lg:w-full block lg:items-center navbar absolute duration-500 ease-in lg:static top-16 ${
-                  open ? "left-[-10px] top-12" : "left-[-380px]"
+                className={`lg:flex w-100 h-72 lg:h-auto lg:w-full block lg:items-center navbar absolute duration-500 ease-in lg:static top-16 lg:bg-transparent bg-white overflow-hidden ${
+                  open ? "left-[-10px] top-16" : "left-[-1080px]"
                 }`}
               >
                 {link.map((item) => (
@@ -47,11 +47,11 @@ const Navbar = () => {
                   </li>
                 ))}
                 {/* RESPONSIVE LOGIN OR SIGN UP  BUTTON */}
-                <div className="flex items-center justify-center md:hidden">
+                <div className=" flex items-center justify-center lg:hidden">
                   <button className="btn bg-sky-600 hover:bg-sky-700 border-0 btn-sm mr-3">
                     Login
                   </button>
-                  <button className="btn bg-red-600 hover:bg-red-700 border-0 btn-sm">
+                  <button className=" btn bg-red-600 hover:bg-red-700 border-0 btn-sm">
                     Sign Up
                   </button>
                 </div>
